@@ -1,0 +1,87 @@
+body{
+    margin:00;
+    background-color: burlywood;
+    font-family: segoe UI , sans-serif;
+}
+header{
+  background-color: white;  
+  padding: 10px;
+  text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav ul a{
+    text-decoration: none;
+    color: burlywood;
+    padding: 5px;
+    border-radius: 5px;
+}
+nav ul a:hover{
+    background-color: gold;
+    color: crimson;
+}
+main{
+    margin: 10px auto;
+    max-width: 80%;
+}
+section{
+   /* border: 1px solid chocolate;*/
+border: 1px solid chocolate ;
+padding: 10px;
+margin: 10px 0px;
+box-shadow: 5px 5px 5px chocolate;
+border-radius: 5px;
+}
+h2{
+    color: red;
+    text-align: center;
+}
+h3{
+    color: red;
+}
+profile{
+    width: 200px;
+    border-radius: 50%;
+}
+#containers{
+    flex-direction: row;
+}
+.proj{
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px gold;
+}
+form{
+    width: 50%;
+    margin: 10px auto;
+}
+form label{
+display: block;
+font-weight: bold;
+}
+form input,
+form textarea{
+    border: 1px solid plum;
+    width: 100%;
+    border-radius: 5px;
+}
+button{
+    background-color: #22d3ee;
+    color: #0f172a;
+    width: 100%;
+    border: none;
+    font-weight: bold;
+    margin: top 5px; 
+    padding: 10px 18px;
+    border-radius: 8px;
+}
+footer{
+    background-color: antiquewhite;
+    padding: 10px;
+    text-align: center;
+}

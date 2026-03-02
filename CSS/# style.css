@@ -1,0 +1,98 @@
+body{
+    background-color: blue(177,91,226) ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+header{
+    background-color: rgb(77, 42, 165);
+    padding: 5px;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+ul li{
+    display: inline;
+    margin: 10px;
+}
+ul li a{
+    text-decoration: double;
+    color: black;
+    font-size: 20px;
+}
+ul li a:hover{
+    background-color: chocolate;
+    color: crimson;
+}
+h1{
+    color: gold;
+    text-align: center;
+}
+form{
+    width: 50%;
+    margin: 10px 30px ;
+    background-color: darkcyan;
+    padding: 10px;
+    border: 2px solid black;
+}
+label{
+    display: block;
+}
+input,textarea,select{
+    width: 50%;
+    border: 1px solid crimson;
+    border-radius: 10px;
+}
+input[type=]{
+width: auto;
+}
+button{
+    background-color: blue(247,3,3);
+    width: 50%;
+    border: none;
+    color: rgb(42, 106, 165);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button{
+    
+}   
+button:hover{
+    background-color: blueviolet;
+    color: black;
+}
+h3{
+    color: brown;
+    text-align: center;
+}
+table{
+    width:50% ;
+    margin: 20px;
+    border:1px solid blue;
+}
+#student{
+    border: 1px solid blue;
+
+}
+th,td{
+    border: 1px;
+    text-align: ;
+}
+table{
+    width:50% ;
+    margin: 20px;
+}
+#student{
+    border: 1px solid brown;
+
+}
+
+th,td{
+     border:1px solid black;
+     text-align:left ;
+}
+th{
+    background-color: chocolate;
+    text-align: center;
+}

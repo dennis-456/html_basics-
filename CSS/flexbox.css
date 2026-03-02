@@ -1,0 +1,35 @@
+body{
+    background-color:grey;
+}
+h2{
+    color: gold;
+}
+h3{
+    color: blue;
+}
+#container{
+    display: flex;
+    flex-direction:row;
+    gap: 20px;
+    justify-content:  center;
+    
+}
+.service{
+background-color: aqua;
+border: 1px red solid;
+flex: 1;
+border-radius: 5px;
+box-shadow: 5px 5px 5px black;
+padding: 10px;
+}
+/*responsiveness*/
+@media(max-width:768px)
+{
+    body{
+        background-color: blue;
+}
+
+#container{
+    flex-direction: column;
+}
+}
